@@ -2,11 +2,11 @@
 
 ## Overview
 
-The "Handwritten Digit Recognition" is a simple yet effective tool for recognizing handwritten digits. This project is powered by a machine learning model originally trained with PyTorch, and the outputs have been adapted to JavaScript format for use in the browser. The application utilizes arrays and matrices to represent biases and weights, allowing for quick and efficient digit recognition.
+The "Handwritten Digit Recognition" is a simple yet powerful web application that identifies handwritten digits (0–9) in real time. The core model was originally trained using PyTorch, and its outputs were later converted to a JavaScript-friendly format so it can run directly in your browser. The app uses arrays and matrices to represent the model’s weights and biases, enabling fast and accurate predictions.
 
 ## How It Works
 
-The core of the "Handwritten Digit Recognition" is a neural network, which is a computational model inspired by the human brain. It consists of layers of interconnected nodes or "neurons" that process input data, learn from it, and make predictions. In this case, the model predicts handwritten digits from 0 to 9 using learned weights and biases from the training phase.
+At the heart of the project lies a neural network — a machine learning model inspired by how the human brain processes information. This network is made up of layers of interconnected “neurons” that learn from data and make predictions. In our case, it’s trained to recognize handwritten digits by analyzing patterns in pixel data and using the learned weights and biases from the training phase.
 
 ## Live Demo
 [Try the application online](https://hoffhannisyan.github.io/handwritten-digit-recognition/): Draw any digit (0-9) on the canvas and see the neural network predict it in real-time!
